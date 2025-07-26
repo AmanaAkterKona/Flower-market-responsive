@@ -118,6 +118,7 @@
     font-weight: 600;
     font-size: 3rem;
 }
+
 .love-content{
     margin-bottom: 40px;
     padding-top: 10px;
@@ -125,6 +126,75 @@
 .love-items{
     margin-bottom: 50px;
 }
+
+ /*deal section*/
+ .content-title{
+    text-align: center;
+    margin-bottom: 40px;
+    
+
+ }
+    .deals-container{
+        display: flex;
+        gap:20px;
+        padding-left:300px;
+        text-align: center;
+        
+        
+        
+    }
+    .y-deal{
+        display: grid;
+        gap: 20px;
+        
+    }
+    .A-image{
+        background-image: url('../images/assets/deal-bloom.png');
+        background-repeat: no-repeat;
+        display: grid;
+        align-items: center;
+        width: 367px;
+        height: 198px;
+       
+        color: white;
+        border-radius: 10px;
+        
+    }
+    .B-image{
+        background-image: url('../images/assets/deal-ana.png');
+        background-repeat: no-repeat;
+        display: grid;
+        align-items: center;
+        width: 367px;
+        height: 198px;
+        justify-content: center;
+       
+        color:white;
+        border-radius: 10px;
+    
+        
+        
+        
+    }
+    
+    .z-deal{
+        background-image: url('../images/assets/deal-zabo.png');
+        display: grid;
+        align-items: center;
+        background-repeat: no-repeat;
+        width: 753px;
+        height: 423px;
+        color: white;
+        border-radius: 10px;
+        
+        
+        
+    }
+    .button-item{
+        text-align: center;
+    
+    }
+    
  @media screen and (min-width:576px)and (max-width:992px) {
     .lily-blossom{
         grid-template-columns: repeat(3, 1fr);
@@ -133,8 +203,7 @@
     }
     
  }
-    
-
+   
 
 
 @media screen and (max-width: 576px) {
