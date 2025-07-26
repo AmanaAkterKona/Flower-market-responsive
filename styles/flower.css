@@ -367,6 +367,21 @@
     .our-plants {
         text-align: center;
     }
+    .love-container, .love-content, .content-title, .deals-container{
+        flex-direction: column;
+
+    }
+    .z-deal, .subscribe-section{
+        width: 100%;
+    }
+    .footer-1, .footer-2, .footer-3{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .email-input, .batn-primary{
+        padding: 5px;
+    }
+
 
 
 
