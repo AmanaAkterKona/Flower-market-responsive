@@ -40,6 +40,7 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .orenge-col{
     color: #E95A08 ;
 }
@@ -48,19 +49,114 @@
     font-size: 3rem;
     
 }
+.banner-description{
+    color: #8987A1;
+}
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
+.btn-primary{
+    background-color: #E95A08;
+    width: 270px;
+    border: none;
+    padding: 10px;
+}
+.our-flower{
+    max-width: 1440px;
+    align-items: center;
+    margin-left: 100px;
+}
+.our-plants{
+
+    text-align: center;
+}
+.organic-flower{
+    font-weight: 500;
+    font-size: 1.50rem;;
+}
+
+.lily-blossom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+    padding: 50px;
+    margin-left: 70px;
+    
+  
+}
+    
+
+.lily-bloom{
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+
+}
+.bloom{
+    font-weight: 500;
+}
+.bloomi{
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+/* flower- store */
+.love-container{
+    display: flex;
+    gap:200px;
+
+     justify-content: center;
+     margin-top: 40px;
+    
+
+}
+.love-title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.love-content{
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+.love-items{
+    margin-bottom: 50px;
+}
+ @media screen and (min-width:576px)and (max-width:992px) {
+    .lily-blossom{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10px;
+        
+    }
+    
+ }
+    
+
+
+
 @media screen and (max-width: 576px) {
-     .nav-links, .navbar{
+     .nav-links, .navbar, .our-plants{
         flex-direction: column;
     }
     .banner{
         flex-direction: column-reverse;
     }
+     .lily-blossom, .our-flower{
+        grid-template-columns: repeat(1, 1fr);
+        
+        margin-left:5px;
+    }
+    .our-plants{
+        text-align: center;
+    }
+    
+        
+    
+    
+
     
     
     
